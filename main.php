@@ -12,5 +12,25 @@
 </head>
 <body>
     <?php require_once "blocks/header.php"; ?>
+
+    <main>
+        <div class="container">
+            <div class="hero">
+                <div class="hero__text">
+                    <h1 class="hero__text-head">
+                        Twój klub. Twoja forma. Twój czas.
+                    </h1>
+                    <p class="hero__text-secondary">
+                        Dołącz do nas i rozpocznij swoją drogę do lepszej formy już dziś.
+                    </p>
+                </div>
+                <div class="rezerwacja">
+                    <a href="#" class="rezerwacja_button">
+                        <p>Zarezerwuj teraz</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
