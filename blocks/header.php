@@ -1,29 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FitLife</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Style/main.css">
-    <link rel="icon" href="/image/logo.png" type="image/x-icon" >
-</head>
-<body>
-    <header class="header">
+<header class="header">
         <div class="container">
             <div class="header-inner">
                 <div class="logo">
                     <a href="#" class="logo_link">
-                        <img src="/image/logo.png" alt="FitLife">
+                        <img src="image/logo.png" alt="FitLife">
                         <h1>FitLife</h1>
                     </a>
                 </div>
                 <nav class="navigacja" aria-label="Glówne menu">
                     <ul class="block_nav">
                         <li class="block_nav-strony">
-                            <a href="#">Strona główna</a>
+                            <a href="#" class="designation">Strona główna</a>
                         </li>
                         <li class="block_nav-strony">
                             <a href="#">Usługi</a>
@@ -47,5 +34,3 @@
             </div>
         </div>
     </header>
-</body>
-</html>
