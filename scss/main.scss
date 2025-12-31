@@ -1,9 +1,10 @@
+@import "./utils/fonts";
 @import "./base";
 @import "./utils/variables";
-@import "./utils/fonts";
 
 @import "./layouts/container";
+@import "./layouts/_dlaczego-section";
+@import "./layouts/dolacz-section";
 @import "./layouts/header";
 @import "./layouts/hero-section";
 @import "./layouts/_uslugi-section";
-@import "./layouts/_dlaczego-section";
