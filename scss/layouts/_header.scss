@@ -49,6 +49,7 @@
   &__button:hover,
   &__link:hover {
     transform: scale(1.1);
+    cursor: pointer;
   }
 
   &__link:hover {
