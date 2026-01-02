@@ -156,35 +156,28 @@
         <div class="container">
           <h1 class="galeria-section__title">Galeria</h1>
           <div class="galeria-section__slider">
-            <button class="galeria-section__button">
-              <svg>
-                <use href="img/arrow"></use>
-              </svg>
-            </button>
-            <div class="galeria-section__container">
               <ul class="galeria-section__list">
-            <li class="galeria-section-item">
-              <button
-                class="galeria-section__btn galeria-section__frame1"
-              ></button>
-            </li>
-            <li class="galeria-section-item">
-              <button
-                class="galeria-section__btn galeria-section__frame2"
-              ></button>
-            </li>
-            <li class="galeria-section-item">
-              <button
-                class="galeria-section__btn galeria-section__frame3"
-              ></button>
-            </li>
-            <li class="galeria-section-item">
-              <button
-                class="galeria-section__btn galeria-section__frame4"
-              ></button>
-            </li>
-          </ul>
-            </div>
+                <li class="galeria-section-item">
+                  <button
+                    class="galeria-section__btn galeria-section__frame1"
+                  ></button>
+                </li>
+                <li class="galeria-section-item">
+                  <button
+                    class="galeria-section__btn galeria-section__frame2"
+                  ></button>
+                </li>
+                <li class="galeria-section-item">
+                  <button
+                    class="galeria-section__btn galeria-section__frame3"
+                  ></button>
+                </li>
+                <li class="galeria-section-item">
+                  <button
+                    class="galeria-section__btn galeria-section__frame4"
+                  ></button>
+                </li>
+              </ul>
           </div>
         </div>
       </section>
