@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FitLife|Uslugi</title>
+    <title>FitLife|Rezerwacja</title>
     <link rel="stylesheet" href="../css/main.min.css" />
     <link rel="icon" type="image/svg" href="/FitLife/img/logo.svg" />
   </head>
@@ -23,19 +23,15 @@
                 <a class="header__link" href="../index.html">Strona główna </a>
               </li>
               <li>
+                <a class="header__link" href="uslugi.html">Usługi</a>
+              </li>
+              <li>
+                <a class="header__link" href="abonamenty.html">Abonamenty</a>
+              </li>
+              <li>
                 <a
                   class="header__link header__link-orange"
-                  href="../pages/uslugi.html"
-                  >Usługi</a
-                >
-              </li>
-              <li>
-                <a class="header__link" href="../pages/abonamenty.html"
-                  >Abonamenty</a
-                >
-              </li>
-              <li>
-                <a class="header__link" href="../pages/rezerwacja.html"
+                  href="rezerwacja.html"
                   >Rezerwacja</a
                 >
               </li>
@@ -49,66 +45,70 @@
       </div>
     </header>
     <main>
-      <section class="naszeUslugi-section">
+      <section class="rezerwacja-section">
         <div class="container">
-          <div class="naszeUslugi-section__container">
-            <h1 class="naszeUslugi-section__title">Nasze Usługi</h1>
-            <button type="button" class="button-section">
-              Dowiedz się wiecej
-            </button>
+          <div class="rezerwacja-section__container">
+            <h1 class="rezerwacja-section__title">Rezerwacja</h1>
           </div>
         </div>
       </section>
-      <section class="uslugiFitlife-section">
+      <section class="uslugiWybor-section">
         <div class="container">
-          <h1 class="uslugiFitlife-section__title">Nasze Usługi w FitLife</h1>
-          <ul class="uslugiFitlife-section__list">
-            <li class="uslugiFitlife-section__item">
-              <button type="button" class="uslugiFitlife-section__btn">
-                <img src="../img/silownia.svg" alt="Логотип Siłownia" />
-                <h3>Siłownia</h3>
-                <p>Nielimitowany dostęp do sprzętu premium.</p>
-              </button>
-            </li>
-            <li class="uslugiFitlife-section__item">
-              <button type="button" class="uslugiFitlife-section__btn">
-                <img src="../img/masaz.svg" alt="Логотип Masaż" />
-                <h3>Masaż</h3>
-                <p>Zrelaksuj ciało po treningu.</p>
-              </button>
-            </li>
-            <li class="uslugiFitlife-section__item">
-              <button type="button" class="uslugiFitlife-section__btn">
-                <img src="../img/sauna.svg" alt="Логотип Sauna" />
-                <h3>Sauna</h3>
-                <p>Zadbaj o regenerację</p>
-              </button>
-            </li>
-            <li class="uslugiFitlife-section__item">
-              <button type="button" class="uslugiFitlife-section__btn">
-                <img src="../img/yoga.svg" alt="Логотип Yoga" />
-                <h3>Yoga</h3>
-                <p>Odnajdz równowagę</p>
-              </button>
-            </li>
-          </ul>
+          <div class="uslugiWybor-section__container">
+            <ul class="uslugiWybor-section__list">
+              <li class="uslugiWybor-section__item">
+                <button class="uslugiWybor-section__btn">
+                  <img src="../img/masaz.svg" alt="Логотип Masaż" />
+                  <h3>Masaż</h3>
+                  <p>Zrelaksuj ciało po treningu.</p>
+                </button>
+              </li>
+              <li class="uslugiWybor-section__item">
+                <button class="uslugiWybor-section__btn">
+                  <img src="../img/sauna.svg" alt="Логотип Sauna" />
+                  <h3>Sauna</h3>
+                  <p>Zadbaj o regenerację</p>
+                </button>
+              </li>
+              <li class="uslugiWybor-section__item">
+                <button class="uslugiWybor-section__btn">
+                  <img src="../img/yoga.svg" alt="Логотип Yoga" />
+                  <h3>Yoga</h3>
+                  <p>Odnajdz równowagę</p>
+                </button>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
-      <section class="zarezerwuj-section">
+      <section class="data-section">
         <div class="container">
-          <div class="zarezerwuj-section__fitlife">
-            <h1 class="zarezerwuj-section__title">
-              Zarezerwuj swoją pierwszą wizytę już dziś!
-            </h1>
-            <button type="button" class="zarezerwuj-section__btn">
-              Zarezerwuj teraz
-            </button>
+          <div class="data-section__container">
+            <h1 class="data-section__title">Wybierz datę i godzinę</h1>
+            <div class="data-section__check">
+              <div class="data-section__item">
+                <h3 class="data-section__text">Data</h3>
+                <button class="data-section__btn">
+                  <img src="../img/calendar.svg" alt="Изображение календаря" />
+                </button>
+              </div>
+              <div class="data-section__item">
+                <h3 class="data-section__text">Godzina</h3>
+                <button class="data-section__btn">
+                  <img src="../img/time.svg" alt="Изображение часов" />
+                </button>
+              </div>
+            </div>
+            <div class="data-section__but">
+              <button class="data-section__button">Zarezerwuj teraz</button>
+            </div>
           </div>
         </div>
       </section>
     </main>
     <footer class="footer">
       <div class="container">
+        <hr />
         <div class="footer-container__info">
           <div class="footer-logo">
             <img
