@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-height: 131px;
+    height: 131px;
     padding-left: 25px;
     gap: 70px;
   }
@@ -13,7 +13,7 @@
   &__nav img {
     display: flex;
     justify-content: center;
-    padding-top: 15px;
+    // padding-top: 15px;
     gap: 70px;
     transition: transform 0.5s ease;
   }
@@ -43,6 +43,9 @@
     font-family: Poppins, sans-serif;
     font-weight: 600;
     transition: transform 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   &__nav img:hover,
